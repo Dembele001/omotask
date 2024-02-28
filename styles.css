@@ -1,0 +1,91 @@
+/* mobile view */
+body{
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    padding: 16px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    display: none;
+}
+nav ul{
+    display: none;
+}
+.icon img{
+    width: 40px;
+}
+.logo img{
+    width: 130px;
+}
+.button{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: rgb(64, 168, 202);
+    border:  none;
+    align-items: center;
+    text-align: center;
+}
+.buton{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(6, 99, 238);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.call{
+    color: rgb(64, 168, 202);
+}
+
+.writeup{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.written{
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.image{
+    justify-content: center;
+    display: flex;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.fit{
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+/* laptop */
+@media screen and (min-width:800px) {
+    body{
+        font-family: 'poppins', sans-serif;
+    }
+    nav button{
+        display: flex;
+    }
+    nav ul{
+        display: flex;  
+        text-decoration: none;
+        justify-content: space-between;
+
+}
